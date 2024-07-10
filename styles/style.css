@@ -4,8 +4,8 @@
     --color-tertiary:  #A27B5C;
     --color-hover:#3F4E4F;
 
-    --font-primary: 'Krona One', sans-serif;
-    --font-secondary: 'Montserrat', sans-serif;
+    /* --font-primary: 'Krona One', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif; */
 }
 
 *{
@@ -38,7 +38,7 @@ body{
     font-family: var(--font-secondary);
     font-size: 1rem;
     font-weight: 600;
-    color: var(--color-tertiary);
+    color: #FFFF;
     text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ body{
    
 }
 
-.presentation__links__subtitle {
+.presentation__links__title {
     font-family: var(--font-primary);
     font-weight: 400;
     font-size: 1rem;
@@ -125,6 +125,7 @@ font-family: var(--font-secondary);
     font-size: 1rem;
     font-weight: 400;
 }
+
 
 
 
