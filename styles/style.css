@@ -118,6 +118,10 @@ body {
     border-radius: 30px;
 }
 
+.carousel-img {
+    border-radius: 50px;
+}
+
 .footer {
     color: var(--color-primary);
     background-color: var(--color-tertiary);
