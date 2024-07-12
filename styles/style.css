@@ -64,8 +64,10 @@ body {
 }
 
 .presentation__content__title {
+    color: #d5a57e;
     font-size: 1.5rem;
     font-family: var(--font-primary);
+    
 }
 
 .text-highlight {
@@ -88,8 +90,9 @@ body {
 
 .presentation__links__title {
     font-family: var(--font-primary);
-    font-weight: 400;
+    font-weight: 100;
     font-size: 1rem;
+    margin-bottom: 20px;
 }
 
 
@@ -112,6 +115,40 @@ body {
 .presentation__links__link:hover {
     background-color: var(--color-hover);
 }
+
+
+.presentation__content__list {
+    list-style-type: none;
+    padding: 0; 
+}
+
+.presentation__content__item {
+    margin-bottom: 20px; 
+}
+
+.presentation__content__company {
+    font-size: 1.3em; 
+    
+    margin-bottom: 6px; 
+}
+
+.presentation__content__role {
+    font-size: 1.2em;
+    margin-bottom: 5px; 
+}
+
+.presentation__content__duration {
+    font-size: 1em; 
+    font-style: italic;
+}
+
+.presentation__content__description {
+    font-size: 1em; 
+    margin-top: 5px; 
+    
+}
+
+
 
 .presentation__img {
     width: 30%;
