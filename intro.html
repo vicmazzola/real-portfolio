@@ -23,7 +23,7 @@
 
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="index.html" class="nav-link header__menu__link">Home</a></li>
-                <li class="nav-item"><a href="intro.html" class="nav-link header__menu__link active"
+                <li class="nav-item"><a href="projects.html" class="nav-link header__menu__link active"
                         aria-current="page">Projects</a></li>
                 <li class="nav-item"><a href="resume.html" class="nav-link header__menu__link">Resume</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link header__menu__link">About Me</a></li>
@@ -32,46 +32,135 @@
             </ul>
         </header>
     </div>
+    <!-- --------------------------------------- Inicio Main ----------------------------------------------- -->
     <main class="presentation">
         <section class="presentation__content">
-        <h2 class="presentation__content__title">Projects:</h2>
-        <p class="presentation__content__text">
-        <ul class="presentation__content__text">
-            <li>Fintech <a href="https://fintechfinplus.vercel.app/" target="_blank">Website</a> </li>
-            <li>Alura Books <a href="https://alurabooks-five-iota.vercel.app/" target="_blank">Website</a> </li>
-            <li>Alura Plus (Study Plataform) <a href="https://alura-plus-phi-flame.vercel.app/"
-                    target="_blank">Website</a> </li>
-            <li>Guess the Secret Number! <a href="https://jogo-do-numero-secreto-alpha-ten.vercel.app/"
-                    target="_blank">Website</a></li>
-        </ul>
+            <h2 class="presentation__content__title">Projects:</h2>
+            <p class="presentation__content__text">
+            <ul class="presentation__content__text">
+                <li>Fintech <a href="https://fintechfinplus.vercel.app/" target="_blank">Website</a> </li>
+                <li>Alura Books <a href="https://alurabooks-five-iota.vercel.app/" target="_blank">Website</a> </li>
+                <li>Alura Plus (Study Plataform) <a href="https://alura-plus-phi-flame.vercel.app/"
+                        target="_blank">Website</a> </li>
+                <li>Guess the Secret Number! <a href="https://jogo-do-numero-secreto-alpha-ten.vercel.app/"
+                        target="_blank">Website</a></li>
+            </ul>
+            </div>
+        </section>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/fintech.png" class="d-block w-100 carousel-img"
+                        alt="Website Fintech Project made by Victor Mazzola">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/alura-books.png" class="d-block w-100 carousel-img"
+                        alt="Alura Books Project made by Victor Mazzola">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/alura-plus.png" class="d-block w-100 carousel-img"
+                        alt="Alura Plus Project made by Victor Mazzola">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/guess-number.png" class="d-block w-100 carousel-img"
+                        alt="Guess the Secret Number Project made by Victor Mazzola">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </section>
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/fintech.png" class="d-block w-100 carousel-img" alt="Website Fintech Project made by Victor Mazzola">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/alura-books.png" class="d-block w-100 carousel-img" alt="Alura Books Project made by Victor Mazzola">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/alura-plus.png" class="d-block w-100 carousel-img" alt="Alura Plus Project made by Victor Mazzola">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/guess-number.png" class="d-block w-100 carousel-img" alt="Guess the Secret Number Project made by Victor Mazzola">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
     </main>
-    
+    <!-- ----------------------------------------------- Inicio Cards --------------------------------------- -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/fintech.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>FinPlus</strong></h5>
+                                <p class="card-text">The project involved building a single web page for a Fintech
+                                    company using HTML, CSS, and Bootstrap. This was a task developed for my Front-End
+                                    Design Engineering class. Key requirements were: <br><strong>Single Page
+                                        Design:</strong> Only one screen was required. <br><strong>Separation of
+                                        Concerns:</strong> HTML and CSS were to be in separate files. 
+                                    <br><strong>Extensive Use of Bootstrap:</strong>Bootstrap was used extensively, with
+                                    custom CSS for deviations from the framework.</p>
+                                <p class="card-text"><small class="text-muted"> <br><br>Developed by Victor Mazzola Jun/24</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------- Fim Cards --------------------------------------- -->
+
+    <!-- ----------------------------------------------- Fim Main -------------------------------------------------- -->
 
 
     <!---------------------------- Inicio Footer --------------------------------->
