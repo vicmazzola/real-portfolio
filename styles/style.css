@@ -25,6 +25,12 @@ body {
 
 }
 
+.light-theme {
+    background-color: #93f3e1;
+    color: black;
+}
+
+
 .header {
     padding: 2% 0% 0% 15%;
 }
@@ -144,7 +150,6 @@ body {
     margin-top: 5px; 
     
 }
-
 
 
 .presentation__img {
