@@ -1,13 +1,25 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const themeSwitcher = document.getElementById('themeSwitcher');
-    const body = document.body;
+const inputEl = document.querySelector('.input');
+const bodyEl = document.querySelector('body');
 
-    themeSwitcher.addEventListener('click', function() {
-        body.classList.toggle('light-theme');
-        if (body.classList.contains('light-theme')) {
-            themeSwitcher.innerText = 'Switch to Dark Theme';
-        } else {
-            themeSwitcher.innerText = 'Switch to Light Theme';
-        }
-    });
+// Initialize theme based on local storage
+const savedMode = JSON.parse(localStorage.getItem('mode'));
+inputEl.checked = savedMode !== null ? savedMode : false; // Default to dark mode if no saved mode
+
+updateBody();
+
+function updateBody() {
+    if (inputEl.checked) {
+        bodyEl.classList.add('light-theme'); // Add light-theme class for light mode
+    } else {
+        bodyEl.classList.remove('light-theme'); // Remove light-theme class for dark mode
+    }
+}
+
+inputEl.addEventListener('input', () => {
+    updateBody();
+    updateLocalStorage();
 });
+
+function updateLocalStorage() {
+    localStorage.setItem('mode', JSON.stringify(inputEl.checked));
+}
