@@ -44,8 +44,11 @@ body {
     text-decoration: none;
 }
 
-
-
+.toggle-switch {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; 
+}
 
 .presentation {
     padding: 5% 15%;
@@ -223,7 +226,7 @@ body {
 }
 
 .light-theme {
-    background-color: #22a8d12b; /* Light mode background */
+    background-color: #4B595B; /* Light mode background */
     color: black; /* Dark text color */
     
 }
