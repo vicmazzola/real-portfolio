@@ -44,6 +44,11 @@ body {
     text-decoration: none;
 }
 
+.header__menu__link:hover {
+    color: black; /* Ensure the link color remains the same on hover */
+}
+
+
 .toggle-switch {
     display: flex;
     align-items: center;
@@ -190,6 +195,7 @@ body {
 .btn-test {
     background-color: #A27B5C;
 }
+
 
 /* -----------------------------start switch theme -------------------------------*/ 
 
