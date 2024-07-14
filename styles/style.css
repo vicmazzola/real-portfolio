@@ -187,6 +187,9 @@ body {
     transform: scale(1.02);
 }
 
+.btn-test {
+    background-color: #A27B5C;
+}
 
 /* -----------------------------start switch theme -------------------------------*/ 
 
@@ -226,7 +229,7 @@ body {
 }
 
 .light-theme {
-    background-color: #4B595B; /* Light mode background */
+    background-color: #eb9654; /* Light mode background */
     color: black; /* Dark text color */
     
 }
@@ -249,6 +252,18 @@ body {
 .light-theme .presentation__links__nav {
     color: black; /* Dark text color */
     
+}
+.light-theme .text-highlight {
+    color: black; /* Dark text color */
+    
+}
+
+.light-theme .footer {
+    background-color: #ea7413;
+}
+
+.light-theme .btn-test {
+    background-color: #ea7413;
 }
 
 /* -----------------------------end switch theme -------------------------------*/ 
