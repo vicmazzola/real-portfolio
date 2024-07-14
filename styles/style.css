@@ -26,10 +26,6 @@ body {
 
 }
 
-.light-theme {
-    background-color: #22a8d12b; /* Light mode background */
-    color: black; /* Dark text color */
-}
 
 .header {
     padding: 2% 0% 0% 15%;
@@ -157,9 +153,6 @@ body {
     border-radius: 30px;
 }
 
-.carousel-img {
-    border-radius: 50px;
-}
 
 
 
@@ -192,7 +185,7 @@ body {
 }
 
 
-/* switch theme */
+/* -----------------------------start switch theme -------------------------------*/ 
 
 .input {
     visibility: hidden;
@@ -200,8 +193,8 @@ body {
 
 .label {
     position: relative;
-    width: 80px;
-    height: 40px;
+    width: 45px;
+    height: 25px;
     background-color: lightgray;
     border-radius: 40px;
     cursor: pointer;
@@ -211,8 +204,8 @@ body {
     transition: background-color 0.4s linear; 
 }
 .circle {
-    width: 34px;
-    height: 34px;
+    width: 21px;
+    height: 21px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
@@ -225,9 +218,37 @@ body {
 }
 
 .input:checked + .label .circle {
-    transform: translateX(40px); 
+    transform: translateX(20px); 
     background-color: black;
 }
+
+.light-theme {
+    background-color: #22a8d12b; /* Light mode background */
+    color: black; /* Dark text color */
+    
+}
+
+.light-theme .header__menu__link {
+    color: black; /* Dark text color */
+    
+}
+
+.light-theme .presentation__content__title {
+    color: black; /* Dark text color */
+    
+}
+
+.light-theme .presentation__links {
+    color: black; /* Dark text color */
+    
+}
+
+.light-theme .presentation__links__nav {
+    color: black; /* Dark text color */
+    
+}
+
+/* -----------------------------end switch theme -------------------------------*/ 
 
 @media (max-width: 1200px) {
     .header {
