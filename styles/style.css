@@ -201,6 +201,11 @@ main {
 }
 
 
+.btn-test:hover {
+    background-color: #8C6A4D;
+}
+
+
 /* -----------------------------start switch theme -------------------------------*/ 
 
 .input {
