@@ -28,8 +28,13 @@ body {
 
 
 .header {
-    padding: 2% 0% 0% 15%;
+    padding: 0;
 }
+
+main {
+    margin-top: -30px; /* Adjust this value as needed to reduce the space */
+}
+
 
 .header__menu {
     display: flex;
