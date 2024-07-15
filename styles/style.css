@@ -244,48 +244,50 @@ main {
 }
 
 .light-theme {
-    background-color: #eb9654; /* Light mode background */
-    color: black; /* Dark text color */
+    background-color: #F3FEB8; 
+    color: black; 
     
 }
 
+.light-theme .text-light {
+    background-color: black;
+}
+
 .light-theme .header__menu__link {
-    color: black; /* Dark text color */
+    color: black; 
     
 }
 
 .light-theme .header__menu__link:hover {
-    color: white; /* Ensure the link color remains the same on hover */
+    color: #c62828; 
 }
 
 
-
-
 .light-theme .presentation__content__title {
-    color: black; /* Dark text color */
+    color: black; 
     
 }
 
 .light-theme .presentation__links {
-    color: black; /* Dark text color */
+    color: black; 
     
 }
 
 .light-theme .presentation__links__nav {
-    color: black; /* Dark text color */
+    color: black; 
     
 }
 .light-theme .text-highlight {
-    color: black; /* Dark text color */
+    color: black; 
     
 }
 
 .light-theme .footer {
-    background-color: #ea7413;
+    background-color: #FF4C4C;
 }
 
 .light-theme .btn-test {
-    background-color: #ea7413;
+    background-color: #FF4C4C;
 }
 
 /* -----------------------------end switch theme -------------------------------*/ 
