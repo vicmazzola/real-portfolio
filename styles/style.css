@@ -32,7 +32,7 @@ body {
 }
 
 main {
-    margin-top: -30px; /* Adjust this value as needed to reduce the space */
+    margin-top: -30px; 
 }
 
 
@@ -50,7 +50,7 @@ main {
 }
 
 .header__menu__link:hover {
-    color: black; /* Ensure the link color remains the same on hover */
+    color: black; 
 }
 
 
@@ -295,17 +295,28 @@ main {
 @media (max-width: 1200px) {
     .header {
         padding: 10%;
-
     }
 
     .header__menu {
         justify-content: center;
-
     }
 
     .presentation {
-        flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column;
         padding: 5%;
+    }
+
+    .presentation__img {
+        order: 1; 
+    }
+
+    .hero {
+        order: 2; 
+    }
+
+    .about-me-teaser {
+        order: 3; 
     }
 
     .presentation__content {
@@ -316,11 +327,9 @@ main {
         max-width: 100%;
         height: auto;
     }
-
-
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     :root {
         --font-size-large: 1.25rem;
         --font-size-medium: 1rem;
@@ -331,7 +340,6 @@ main {
         max-width: 100%;
         height: auto;
     }
-
 
     .header {
         padding: 5%;
@@ -348,9 +356,25 @@ main {
     }
 
     .presentation {
-        flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column;
         padding: 5%;
         gap: 20px;
+    }
+
+    .presentation__img {
+        order: 1;
+        width: 100%; 
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .hero {
+        order: 2;
+    }
+
+    .about-me-teaser {
+        order: 3;
     }
 
     .presentation__content {
@@ -375,13 +399,8 @@ main {
     }
 
     .presentation__links__nav img {
-        width: 30px; 
+        width: 30px;
         height: auto;
-    }
-
-    .presentation__img {
-        width: 100%;
-        border-radius: 15px;
     }
 
     .footer {
@@ -394,10 +413,9 @@ main {
     }
 
     .footer .nav li {
-        margin: 0 10px;  
+        margin: 0 10px;
     }
-
-    
-
-
 }
+
+
+
